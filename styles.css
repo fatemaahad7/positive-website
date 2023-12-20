@@ -94,3 +94,23 @@ body {
     font-weight: 700;
     color: grey;
 }
+
+
+/* -------------- CALL NOW SECTION STYLES --------------*/
+.call-now {
+    background-image: url('images/gradient1.png') , url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 70px 200px;
+    margin-bottom: 100px;
+}
+.call-now .text-area {
+    width: 50%;
+}
+.call-now h3 {
+    color: white;
+}
+.call-now button {
+    color: #062b70;
+    background-color: white;
+}
