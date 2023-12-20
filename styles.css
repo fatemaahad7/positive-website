@@ -71,3 +71,26 @@ body {
 .fa-check {
     color: limegreen;
 }
+
+
+/* -------------- PLANS SECTION STYLES --------------*/
+.plan-section {
+    margin: 100px auto;
+    text-align: center;
+}
+.plan-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.plan h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.plan p {
+    font-size: 20px;
+    font-weight: 700;
+    color: grey;
+}
