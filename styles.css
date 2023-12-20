@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Fira Sans', sans-serif;
+    color: #222222;
 }
 .primary-btn {
     border: 0;
@@ -12,6 +13,11 @@ body {
     background-color: #062b70;
     padding: 15px 30px;
     border-radius: 5px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
 
 /* -------------- HEADER STYLES --------------*/
@@ -37,4 +43,31 @@ body {
     color: #313131;
     padding-left: 160px;
     margin-bottom: 30px;
+}
+
+
+/* -------------- FAILURE SECTION STYLES --------------*/
+.failure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.failure img {
+    height: 600px;
+}
+.failure-text {
+    width: 25%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.failure-text p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#description {
+    margin-bottom: 20px;
+}
+.fa-check {
+    color: limegreen;
 }
