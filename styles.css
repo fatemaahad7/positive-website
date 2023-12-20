@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.primary-btn {
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #062b70;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/* -------------- HEADER STYLES --------------*/
+.banner-container {
+    height: 630px;
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-texts {
+    text-align: right;
+    width: 40%;
+    padding-left: 650px;
+    padding-top: 180px;
+}
+.banner-title {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.banner-description {
+    font-size: 14px;
+    color: #313131;
+    padding-left: 160px;
+    margin-bottom: 30px;
+}
